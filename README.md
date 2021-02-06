@@ -14,6 +14,12 @@ The main controller is an Arduino Nano 33 IoT, which has an Atmel ARM Microcontr
 
 A heated floor is controlled by a wax valve which melts over five minutes in the presence of heat. A heated floor thermostat is a bimetallic strip which can engage or disengage at a specific temperature. This device replaces the bimetallic strip with connected logic, such that it can be configured on a schedule, controlled remotely, make reports, etc. 
 
+### Pictures
+
+![Board Backside](pictures/board%20backside.jpg?raw=true)
+![Board Front, No Arduino](pictures/board%20front%20side,%20without%20arduino.jpg?raw=true)
+
+
 ### Errata
 
 The temperature sensor is not sufficiently isolated from the operating conditions of the board and as such when the relay is engaged it senses a 2-3 degree self-warming. This is currently compensated for in the firmware.
@@ -51,7 +57,11 @@ Example Setting Config:
 `   
   curl --data "ssid=My Access Point&pass=password!&rip=192.168.178.72&save=yes" 192.168.178.45
 `  
-  
+
+### Pictures
+
+![Web Interface](pictures/web%20interface.jpg?raw=true)
+
 ### Errata
 
 ## Contributing
