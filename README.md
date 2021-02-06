@@ -47,8 +47,11 @@ The HTTP handler listens for GET and POST requests. GET requests bring up a simp
 | relay | off/on | force the relay to (dis)engage |
 
 Example Setting Config:
-  curl --data "ssid=My Access Point&pass=password!&rip=192.168.178.72&save=yes" 192.168.178.45
 
+`   
+  curl --data "ssid=My Access Point&pass=password!&rip=192.168.178.72&save=yes" 192.168.178.45
+`  
+  
 ### Errata
 
 ## Contributing
